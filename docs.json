@@ -17,6 +17,11 @@
     "dark": "/assets/logo_light.svg"
   },
   "favicon": "/assets/favicon.svg",
+  "seo": {
+    "metatags": {
+      "og:image": "/assets/banner.png"
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -36,7 +41,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Discord Server",
+          "anchor": "Discord",
           "href": "https://play.hosting/discord",
           "icon": "discord"
         }
