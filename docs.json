@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Play Hosting Docs",
+  "name": "Play Hosting",
   "colors": {
     "primary": "#D2B361",
     "light": "#FAD77B",
@@ -13,33 +13,22 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/assets/logo_dark.svg",
+    "dark": "/assets/logo_light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/assets/favicon.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Docs",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
+            "group": "Get started",
+            "pages": ["introduction", "hardware"]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "group": "Using your server",
+            "pages": ["minecraft/setup", "minecraft/queue", "minecraft/console"]
           }
         ]
       }
@@ -47,7 +36,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Need support? Join Discord",
+          "anchor": "Discord Server",
           "href": "https://play.hosting/discord",
           "icon": "discord"
         }
