@@ -1,6 +1,6 @@
 # Interested in contributing?
 
-We use Mintlify as our docs generator. You can find their guides on styling [https://mintlify.com/docs/page](here) - it's pretty much just standard Markdown syntax.
+We use Mintlify as our docs generator. You can find their guides on styling [here](https://mintlify.com/docs/page) - it's pretty much just standard Markdown syntax.
 
 You can submit a pull request [here](https://github.com/LilypadGG/pterodactyl/pulls) if you've written up an article you think we might like to publish, or create an [issue](https://github.com/LilypadGG/pterodactyl/issues) if you have any suggestions for articles.
 
