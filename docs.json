@@ -29,11 +29,19 @@
         "groups": [
           {
             "group": "Get started",
-            "pages": ["introduction", "hardware"]
+            "pages": [
+              "introduction",
+              "hardware"
+            ]
           },
           {
             "group": "Using your server",
-            "pages": ["minecraft/setup", "minecraft/queue", "minecraft/console"]
+            "pages": [
+              "minecraft/setup",
+              "minecraft/queue",
+              "minecraft/console",
+              "minecraft/upload"
+            ]
           }
         ]
       }
