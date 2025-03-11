@@ -1,0 +1,27 @@
+---
+title: Installing voice chat
+icon: "microphone"
+iconType: "solid"
+---
+
+The [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) mod/plugin lets your players talk through in-game proximity voice chat. It's fully secure, fun to use and easy to install via the CurseForge launcher/similar on you and your friends' computers.
+
+<Note>
+  Make sure the players who want to use voice chat have the mod installed on
+  their clients - there'll be guides online for this, and can be done easily
+  using the [CurseForge Launcher](https://www.curseforge.com/download/app)
+</Note>
+
+If you're running Paper or a plugin-based server version (recommended - can be changed via **Software** tab), just go to the **Plugins** tab and install Simple Voice Chat from the list by pressing the download icon on the right, and then the **Install** button.
+
+<Frame>![Voice chat plugin](/assets/voicechat_plugin.png)</Frame>
+
+If running a modded server version like Forge or Fabric, download the mod from [Modrinth](https://modrinth.com/plugin/simple-voice-chat/versions?c=release) and place it in the `mods` folder of your server, via the **Files** tab.
+
+Restart your server to load in the new plugin/mod, then go to the **Network** tab of your panel and create a new port. Copy the created port number to your clipboard.
+
+<Frame>![Voice chat port](/assets/voicechat_port.png)</Frame>
+
+Go to the plugin/mod's config, either in your server's `plugins/voicechat` or `config/voicechat` folder, and change the value after `port=` to the number you copied. Save the file and restart your server, and you should be good to go!
+
+<Frame>![Voice chat configuration](/assets/voicechat_config.png)</Frame>
